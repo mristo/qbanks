@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>The Ottawa Question Bank</title>
+    <meta name="description" content="The Ottawa Question Bank is a comprehensive database of medical questions and answers, designed to help you assess your knowledge and prepare for exams."/>
+    <link rel="icon" href="/icon.svg"/>
+    <link rel="preload" as="image" href="/_next/static/media/phone-frame.d4b6b62a.svg"/>
+    <meta name="next-head-count" content="6"/>
+    <link rel="preload" href="/_next/static/css/8d058f456c772e5c.css" as="style"/>
+    <link rel="stylesheet" href="/_next/static/css/8d058f456c772e5c.css" data-n-g=""/>
+    <noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="/_next/static/chunks/webpack-6ef43a8d4a395f49.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-2c79e2a64abdb08b.js" defer=""></script>
+    <script src="/_next/static/chunks/main-49b8793e74a80990.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-d9b37bf7c2172c1e.js" defer=""></script>
+    <script src="/_next/static/chunks/776-81721fa9b6770d54.js" defer=""></script>
+    <script src="/_next/static/chunks/675-ca33a57d0d06f583.js" defer=""></script>
+    <script src="/_next/static/chunks/180-075de2e3f369e6e1.js" defer=""></script>
+    <script src="/_next/static/chunks/885-ac2da06083c286ec.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/index-5b1165f0e753cae0.js" defer=""></script>
+    <script src="/_next/static/UlRnIrdCvsBkGGu4jcppH/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/UlRnIrdCvsBkGGu4jcppH/_ssgManifest.js" defer=""></script>
+</head>
+<body>
+    <div id="__next">
+        <script>
+        !function() {
+            try {
+                var d = document.documentElement,
+                    c = d.classList;
+                c.remove('light', 'dark');
+                var e = localStorage.getItem('theme');
+                if ('system' === e || (!e && true)) {
+                    var t = '(prefers-color-scheme: dark)',
+                        m = window.matchMedia(t);
+                    if (m.media !== t || m.matches) {
+                        d.style.colorScheme = 'dark';
+                        c.add('dark')
+                    } else {
+                        d.style.colorScheme = 'light';
+                        c.add('light')
+                    }
+                } else if (e) {
+                    c.add(e || '')
+                }
+                if (e === 'light' || e === 'dark')
+                    d.style.colorScheme = e
+            } catch (e) {}
+        }()
+        </script>
+        <div class="bg-gray-50">
+            <main>
+                <header>
+                    <nav>
+                        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
+                            <div class="relative z-10 flex items-center gap-16">
+                                <a aria-label="Home" href="/">
+                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="/icon.svg"/>
+                                </a>
+                                <div class="hidden lg:flex lg:gap-10">
+                                    <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#features">
+                                        <span class="relative z-10">Features</span>
+                                    </a>
+                                    <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#pricing">
+                                        <span class="relative z-10">Pricing</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="lg:hidden" data-headlessui-state="">
+                                    <button class="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&amp;:not(:focus-visible)]:focus:outline-none" aria-label="Toggle site navigation" type="button" aria-expanded="false" data-headlessui-state="">
+                                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="h-6 w-6">
+                                            <path d="M5 6h14M5 18h14M5 12h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></div>
+                                <button class="inline-flex justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 hidden lg:block" disabled="">Sign in</button>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 hidden lg:block">Français</button>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div class="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
+                            <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:my-10 lg:max-w-none lg:pt-6 xl:col-span-6">
+                                <h1 class="text-4xl font-medium tracking-tight text-gray-900">Master your medical knowledge</h1>
+                                <p class="mt-6 text-lg text-gray-600">The Ottawa Question Bank is a comprehensive database of medical questions and answers, designed to help you assess your knowledge and prepare for exams.</p>
+                            </div>
+                            <div class="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+                                <div class="absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0">
+                                    <svg viewBox="0 0 1026 1026" fill="none" aria-hidden="true" class="absolute inset-0 h-full w-full animate-spin-slow">
+                                        <path d="M1025 513c0 282.77-229.23 512-512 512S1 795.77 1 513 230.23 1 513 1s512 229.23 512 512Z" stroke="#D4D4D4" stroke-opacity="0.7"></path>
+                                        <path d="M513 1025C230.23 1025 1 795.77 1 513" stroke="url(#:Rcl6:-gradient-1)" stroke-linecap="round"></path>
+                                        <defs>
+                                            <linearGradient id=":Rcl6:-gradient-1" x1="1" y1="513" x2="1" y2="1025" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#06b6d4"></stop>
+                                                <stop offset="1" stop-color="#06b6d4" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <svg viewBox="0 0 1026 1026" fill="none" aria-hidden="true" class="absolute inset-0 h-full w-full animate-spin-reverse-slower">
+                                        <path d="M913 513c0 220.914-179.086 400-400 400S113 733.914 113 513s179.086-400 400-400 400 179.086 400 400Z" stroke="#D4D4D4" stroke-opacity="0.7"></path>
+                                        <path d="M913 513c0 220.914-179.086 400-400 400" stroke="url(#:Rcl6:-gradient-2)" stroke-linecap="round"></path>
+                                        <defs>
+                                            <linearGradient id=":Rcl6:-gradient-2" x1="913" y1="513" x2="913" y2="913" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#06b6d4"></stop>
+                                                <stop offset="1" stop-color="#06b6d4" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
+                                    <div class="relative aspect-[366/729] mx-auto max-w-[366px]">
+                                        <div class="absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-sky-900 pt-[calc(23/318*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="flex justify-center px-4 pt-4">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-4 flex-auto rounded-t-2xl bg-white">
+                                                    <div class="px-4 pt-5 pb-1">
+                                                        <h1 class="text-md font-bold text-gray-900">Radiology of the Hip and Knee</h1>
+                                                    </div>
+                                                    <div class="px-4 pt-2 pb-1">
+                                                        <h1 class="text-sm font-medium text-gray-900">Which structures are represented by A and B in the AP pelvis X-ray shown below?</h1>
+                                                    </div>
+                                                    <div class="flex justify-center px-8 pb-1 pt-2">
+                                                        <img alt="Hero Application Mockup" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" class="rounded-sm" style="color:transparent" srcSet="/_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=384&amp;q=75"/>
+                                                    </div>
+                                                    <div class="p-4">
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Sacral ring, B: Obturator foramina</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Pelvic ring, B: Acetabular ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Obturator foramen, B: Acetabular ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Pelvic ring, B: Sacral ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Main pelvic ring, B: Obturator foramina</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 366 729" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" width="366" height="729" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/phone-frame.d4b6b62a.svg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="features" aria-label="Features" class="bg-gray-900 py-20 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+                            <h2 class="text-3xl font-medium tracking-tight text-white">Includes all the features you need to succeed.</h2>
+                            <p class="mt-2 text-lg text-gray-300">Created entirely by medical students, the Ottawa Question Bank is a reliable and user-friendly resource. Crafted specifically for Canadians, all content is in line with the national objectives for medical education and reflects Canadian clinical guidelines.</p>
+                        </div>
+                    </div>
+                    <div class="mt-16 lg:hidden">
+                        <div class="-mb-4 flex snap-x snap-mandatory -space-x-4 overflow-x-auto overscroll-x-contain scroll-smooth pb-4 [scrollbar-width:none] sm:-space-x-6 [&amp;::-webkit-scrollbar]:hidden">
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true">
+                                            <defs>
+                                                <linearGradient id=":R5ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R5ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 py-6">
+                                                        <div class="space-y-4">
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-sm font-semibold text-gray-900">Subject</div>
+                                                                <div class="text-sm font-semibold text-gray-900">Number of questions</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Neurology</div>
+                                                                <div class="text-xs font-medium text-gray-800">386</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Respirology</div>
+                                                                <div class="text-xs font-medium text-gray-800">379</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Cardiology</div>
+                                                                <div class="text-xs font-medium text-gray-800">361</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Gastroenterology</div>
+                                                                <div class="text-xs font-medium text-gray-800">341</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Nephrology</div>
+                                                                <div class="text-xs font-medium text-gray-800">295</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Endocrinology</div>
+                                                                <div class="text-xs font-medium text-gray-800">273</div>
+                                                            </div>
+                                                            <div class="rounded-lg bg-sky-500 py-2 px-3 text-center text-sm font-semibold text-white">Load more</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <defs>
+                                                <linearGradient id="unique-id-gradient" x1="14" y1="14.5" x2="7" y2="17" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#737373"></stop>
+                                                    <stop offset="1" stop-color="#D4D4D4" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4a4 4 0 014-4h14a4 4 0 014 4v13h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h4v2H9a4 4 0 01-4-4V4z" fill="#A3A3A3"></path>
+                                            <path d="M7 22c0-4.694 3.5-8 8-8" stroke="url(#unique-id-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z" fill="#A3A3A3"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Substantial collection of questions</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Get access to over 4,000 questions, including more than 3,500 multiple choice questions and 65 clinical decision-making cases. For ease of use, all questions are divided into topics and linked to specific learning objectives.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true" class="rotate-180">
+                                            <defs>
+                                                <linearGradient id=":R6ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R6ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 pt-5 pb-1">
+                                                        <h1 class="text-sm font-medium text-gray-900">Which of the following is not a symptom of an upper motor lesion?</h1>
+                                                    </div>
+                                                    <div class="p-4">
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Weakness</p>
+                                                                        <p class="text-xs font-light">Incorrect. Weakness is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Increased tone</p>
+                                                                        <p class="text-xs font-light">Incorrect. Increased tone is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-sky-600 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-green-500">
+                                                                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-white">
+                                                                        <p>Hyporeflexia</p>
+                                                                        <p class="text-xs font-light">Correct. Hyporeflexia is a symptom of lower motor neuron lesions. Hyperreflexia is a symptom of upper motor neuron lesions.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Upgoing plantar reflexes</p>
+                                                                        <p class="text-xs font-light">Incorrect. Upgoing plantar reflexes is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>All of these are symptoms of an upper motor lesion.</p>
+                                                                        <p class="text-xs font-light">Incorrect. Answer C, hyporeflexia, is a symptom of lower motor neuron lesions, not upper motor neuron lesions.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="divide-y divide-gray-100">
+                                                        <div class="flex items-center gap-4 px-4 py-3">
+                                                            <div class="flex-auto text-sm text-gray-900">Previous</div>
+                                                            <div class="flex-none text-right">
+                                                                <div class="text-sm text-gray-900">Next</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
+                                            <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Deepen your understanding</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Each question is followed by detailed explanations of all answer choices, allowing you to consolidate material and further your learning.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true">
+                                            <defs>
+                                                <linearGradient id=":R7ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R7ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="p-4">
+                                                        <div class="flex columns-2 justify-evenly gap-4 align-middle">
+                                                            <div class="col-span-1">
+                                                                <div class="px-4 pb-2">
+                                                                    <h1 class="pb-4 text-center text-xs font-light text-gray-900">Performance by subject</h1>
+                                                                    <img alt="" loading="lazy" width="200" height="200" decoding="async" data-nimg="1" class="justify-self-center" style="color:transparent" src="images/home/doughnut-chart.svg"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-span-1">
+                                                                <div class="px-4 pb-2">
+                                                                    <h1 class="pb-4 text-center text-xs font-light text-gray-900">Overall performance</h1>
+                                                                    <img alt="" loading="lazy" width="200" height="200" decoding="async" data-nimg="1" class="justify-self-center" style="color:transparent" src="images/home/line-chart.svg"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#737373"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.838V26a2 2 0 01-2 2H11a2 2 0 01-2-2V15.65l2.57 3.212a1 1 0 001.38.175L15.4 17.2a1 1 0 011.494.353l1.841 3.681c.399.797 1.562.714 1.843-.13L23 13.837z" fill="#c0c0c0"></path>
+                                            <path d="M10 12h12" stroke="#737373" stroke-width="2" stroke-linecap="square"></path>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Detailed performance metrics</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Whether you are studying for an upcoming exam or brushing up on knowledge before writing the MCCQE, the advanced analytics provided allow you to track your progress and better identify gaps in knowledge.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex justify-center gap-3">
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-300" aria-label="Go to slide 1">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-500" aria-label="Go to slide 2">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-500" aria-label="Go to slide 3">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 hidden lg:mt-20 lg:block">
+                        <button type="button" aria-hidden="true" style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0"></button>
+                        <div class="grid grid-cols-12 items-center gap-8 lg:gap-16 xl:gap-24">
+                            <div class="relative z-10 order-last col-span-6 space-y-6" role="tablist" aria-orientation="vertical">
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="absolute inset-0 bg-gray-800" style="border-radius:16px"></div>
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <defs>
+                                                <linearGradient id="unique-id-gradient" x1="14" y1="14.5" x2="7" y2="17" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#737373"></stop>
+                                                    <stop offset="1" stop-color="#D4D4D4" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4a4 4 0 014-4h14a4 4 0 014 4v13h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h4v2H9a4 4 0 01-4-4V4z" fill="#A3A3A3"></path>
+                                            <path d="M7 22c0-4.694 3.5-8 8-8" stroke="url(#unique-id-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z" fill="#A3A3A3"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R55mt6:" role="tab" type="button" aria-selected="true" tabindex="0" data-headlessui-state="selected">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Substantial collection of questions
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Get access to over 4,000 questions, including more than 3,500 multiple choice questions and 65 clinical decision-making cases. For ease of use, all questions are divided into topics and linked to specific learning objectives.</p>
+                                    </div>
+                                </div>
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
+                                            <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R59mt6:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Deepen your understanding
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Each question is followed by detailed explanations of all answer choices, allowing you to consolidate material and further your learning.</p>
+                                    </div>
+                                </div>
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#737373"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.838V26a2 2 0 01-2 2H11a2 2 0 01-2-2V15.65l2.57 3.212a1 1 0 001.38.175L15.4 17.2a1 1 0 011.494.353l1.841 3.681c.399.797 1.562.714 1.843-.13L23 13.837z" fill="#c0c0c0"></path>
+                                            <path d="M10 12h12" stroke="#737373" stroke-width="2" stroke-linecap="square"></path>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R5dmt6:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Detailed performance metrics
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Whether you are studying for an upcoming exam or brushing up on knowledge before writing the MCCQE, the advanced analytics provided allow you to track your progress and better identify gaps in knowledge.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6">
+                                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                    <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true" class="animate-spin-slower">
+                                        <defs>
+                                            <linearGradient id=":R6mt6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ea5e9"></stop>
+                                                <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                        <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R6mt6:)" stroke-linecap="round"></path>
+                                    </svg>
+                                </div>
+                                <div class="relative aspect-[1200/700] z-10 mx-auto min-h-full w-full max-w-[800px]">
+                                    <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                    <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                        <div class="col-start-1 row-start-1 flex focus:outline-offset-[32px] [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-panel-:Rdamt6:" role="tabpanel" tabindex="0" data-headlessui-state="selected">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 py-6">
+                                                        <div class="space-y-4">
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-sm font-semibold text-gray-900">Subject</div>
+                                                                <div class="text-sm font-semibold text-gray-900">Number of questions</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Neurology</div>
+                                                                <div class="text-xs font-medium text-gray-800">386</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Respirology</div>
+                                                                <div class="text-xs font-medium text-gray-800">379</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Cardiology</div>
+                                                                <div class="text-xs font-medium text-gray-800">361</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Gastroenterology</div>
+                                                                <div class="text-xs font-medium text-gray-800">341</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Nephrology</div>
+                                                                <div class="text-xs font-medium text-gray-800">295</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Endocrinology</div>
+                                                                <div class="text-xs font-medium text-gray-800">273</div>
+                                                            </div>
+                                                            <div class="rounded-lg bg-sky-500 py-2 px-3 text-center text-sm font-semibold text-white">Load more</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                    <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pricing" aria-labelledby="pricing-title" class="border-t border-gray-200 bg-gray-100 py-20 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl text-center">
+                            <h2 id="pricing-title" class="text-3xl font-medium tracking-tight text-gray-900">Flat pricing, no extra fees.</h2>
+                            <p class="mt-2 text-lg text-gray-600">All plans give you full, unrestricted access to all features of the Ottawa Question Bank for the duration of your subscription.</p>
+                        </div>
+                        <div class="mt-8 flex justify-center">
+                            <div class="relative">
+                                <div aria-hidden="true" class="pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-sky-500 transition-all duration-300"></div>
+                            </div>
+                        </div>
+                        <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3">
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
+                                <h3 class="flex items-center text-sm font-semibold text-gray-900">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon.svg"/>
+                                    <span class="ml-4">3 Months</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-gray-900">$65</p>
+                                <p class="mt-3 text-sm text-gray-700">You will be billed every three months.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-200 text-gray-700">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6" disabled="">Trimonthly billing</button>
+                            </section>
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
+                                <h3 class="flex items-center text-sm font-semibold text-gray-900">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon.svg"/>
+                                    <span class="ml-4">6 Months</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-gray-900">$99</p>
+                                <p class="mt-3 text-sm text-gray-700">You will be billed every six months.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-200 text-gray-700">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6" disabled="">Semiannual billing</button>
+                            </section>
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 order-first bg-gray-900 lg:order-none">
+                                <h3 class="flex items-center text-sm font-semibold text-white">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon_white.svg"/>
+                                    <span class="ml-4">1 Year</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-white">$149</p>
+                                <p class="mt-3 text-sm text-gray-300">You will be billed every year.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-800 text-gray-300">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors mt-6 bg-sky-600 text-white hover:bg-sky-700" disabled="">Yearly billing</button>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="border-t border-gray-200 bg-white">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col items-center justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:py-16">
