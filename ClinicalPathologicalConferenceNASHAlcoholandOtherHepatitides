@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>The Ottawa Question Bank</title>
+    <meta name="description" content="The Ottawa Question Bank is a comprehensive database of medical questions and answers, designed to help you assess your knowledge and prepare for exams."/>
+    <link rel="icon" href="/icon.svg"/>
+    <link rel="preload" as="image" href="/_next/static/media/phone-frame.d4b6b62a.svg"/>
+    <meta name="next-head-count" content="6"/>
+    <link rel="preload" href="/_next/static/css/8d058f456c772e5c.css" as="style"/>
+    <link rel="stylesheet" href="/_next/static/css/8d058f456c772e5c.css" data-n-g=""/>
+    <noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="/_next/static/chunks/webpack-6ef43a8d4a395f49.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-2c79e2a64abdb08b.js" defer=""></script>
+    <script src="/_next/static/chunks/main-49b8793e74a80990.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-d9b37bf7c2172c1e.js" defer=""></script>
+    <script src="/_next/static/chunks/776-81721fa9b6770d54.js" defer=""></script>
+    <script src="/_next/static/chunks/675-ca33a57d0d06f583.js" defer=""></script>
+    <script src="/_next/static/chunks/180-075de2e3f369e6e1.js" defer=""></script>
+    <script src="/_next/static/chunks/885-ac2da06083c286ec.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/index-5b1165f0e753cae0.js" defer=""></script>
+    <script src="/_next/static/UlRnIrdCvsBkGGu4jcppH/_buildManifest.js" defer=""></script>
+    <script src="/_next/static/UlRnIrdCvsBkGGu4jcppH/_ssgManifest.js" defer=""></script>
+</head>
+<body>
+    <div id="__next">
+        <script>
+        !function() {
+            try {
+                var d = document.documentElement,
+                    c = d.classList;
+                c.remove('light', 'dark');
+                var e = localStorage.getItem('theme');
+                if ('system' === e || (!e && true)) {
+                    var t = '(prefers-color-scheme: dark)',
+                        m = window.matchMedia(t);
+                    if (m.media !== t || m.matches) {
+                        d.style.colorScheme = 'dark';
+                        c.add('dark')
+                    } else {
+                        d.style.colorScheme = 'light';
+                        c.add('light')
+                    }
+                } else if (e) {
+                    c.add(e || '')
+                }
+                if (e === 'light' || e === 'dark')
+                    d.style.colorScheme = e
+            } catch (e) {}
+        }()
+        </script>
+        <div class="bg-gray-50">
+            <main>
+                <header>
+                    <nav>
+                        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
+                            <div class="relative z-10 flex items-center gap-16">
+                                <a aria-label="Home" href="/">
+                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="/icon.svg"/>
+                                </a>
+                                <div class="hidden lg:flex lg:gap-10">
+                                    <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#features">
+                                        <span class="relative z-10">Features</span>
+                                    </a>
+                                    <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#pricing">
+                                        <span class="relative z-10">Pricing</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="lg:hidden" data-headlessui-state="">
+                                    <button class="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&amp;:not(:focus-visible)]:focus:outline-none" aria-label="Toggle site navigation" type="button" aria-expanded="false" data-headlessui-state="">
+                                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="h-6 w-6">
+                                            <path d="M5 6h14M5 18h14M5 12h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none"></div>
+                                <button class="inline-flex justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 hidden lg:block" disabled="">Sign in</button>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 hidden lg:block">Français</button>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div class="overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
+                            <div class="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:my-10 lg:max-w-none lg:pt-6 xl:col-span-6">
+                                <h1 class="text-4xl font-medium tracking-tight text-gray-900">Master your medical knowledge</h1>
+                                <p class="mt-6 text-lg text-gray-600">The Ottawa Question Bank is a comprehensive database of medical questions and answers, designed to help you assess your knowledge and prepare for exams.</p>
+                            </div>
+                            <div class="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+                                <div class="absolute left-1/2 top-4 h-[1026px] w-[1026px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0">
+                                    <svg viewBox="0 0 1026 1026" fill="none" aria-hidden="true" class="absolute inset-0 h-full w-full animate-spin-slow">
+                                        <path d="M1025 513c0 282.77-229.23 512-512 512S1 795.77 1 513 230.23 1 513 1s512 229.23 512 512Z" stroke="#D4D4D4" stroke-opacity="0.7"></path>
+                                        <path d="M513 1025C230.23 1025 1 795.77 1 513" stroke="url(#:Rcl6:-gradient-1)" stroke-linecap="round"></path>
+                                        <defs>
+                                            <linearGradient id=":Rcl6:-gradient-1" x1="1" y1="513" x2="1" y2="1025" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#06b6d4"></stop>
+                                                <stop offset="1" stop-color="#06b6d4" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <svg viewBox="0 0 1026 1026" fill="none" aria-hidden="true" class="absolute inset-0 h-full w-full animate-spin-reverse-slower">
+                                        <path d="M913 513c0 220.914-179.086 400-400 400S113 733.914 113 513s179.086-400 400-400 400 179.086 400 400Z" stroke="#D4D4D4" stroke-opacity="0.7"></path>
+                                        <path d="M913 513c0 220.914-179.086 400-400 400" stroke="url(#:Rcl6:-gradient-2)" stroke-linecap="round"></path>
+                                        <defs>
+                                            <linearGradient id=":Rcl6:-gradient-2" x1="913" y1="513" x2="913" y2="913" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#06b6d4"></stop>
+                                                <stop offset="1" stop-color="#06b6d4" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
+                                    <div class="relative aspect-[366/729] mx-auto max-w-[366px]">
+                                        <div class="absolute inset-y-[calc(1/729*100%)] right-[calc(5/729*100%)] left-[calc(7/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(23/729*100%)] left-[calc(23/366*100%)] grid h-[calc(686/729*100%)] w-[calc(318/366*100%)] transform grid-cols-1 overflow-hidden bg-sky-900 pt-[calc(23/318*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="flex justify-center px-4 pt-4">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-4 flex-auto rounded-t-2xl bg-white">
+                                                    <div class="px-4 pt-5 pb-1">
+                                                        <h1 class="text-md font-bold text-gray-900">Radiology of the Hip and Knee</h1>
+                                                    </div>
+                                                    <div class="px-4 pt-2 pb-1">
+                                                        <h1 class="text-sm font-medium text-gray-900">Which structures are represented by A and B in the AP pelvis X-ray shown below?</h1>
+                                                    </div>
+                                                    <div class="flex justify-center px-8 pb-1 pt-2">
+                                                        <img alt="Hero Application Mockup" loading="lazy" width="150" height="150" decoding="async" data-nimg="1" class="rounded-sm" style="color:transparent" srcSet="/_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fhome%2Fhero_app.png&amp;w=384&amp;q=75"/>
+                                                    </div>
+                                                    <div class="p-4">
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Sacral ring, B: Obturator foramina</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Pelvic ring, B: Acetabular ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Obturator foramen, B: Acetabular ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Pelvic ring, B: Sacral ring</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <p class="text-xs font-medium text-gray-900">A: Main pelvic ring, B: Obturator foramina</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 366 729" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" width="366" height="729" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/phone-frame.d4b6b62a.svg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="features" aria-label="Features" class="bg-gray-900 py-20 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+                            <h2 class="text-3xl font-medium tracking-tight text-white">Includes all the features you need to succeed.</h2>
+                            <p class="mt-2 text-lg text-gray-300">Created entirely by medical students, the Ottawa Question Bank is a reliable and user-friendly resource. Crafted specifically for Canadians, all content is in line with the national objectives for medical education and reflects Canadian clinical guidelines.</p>
+                        </div>
+                    </div>
+                    <div class="mt-16 lg:hidden">
+                        <div class="-mb-4 flex snap-x snap-mandatory -space-x-4 overflow-x-auto overscroll-x-contain scroll-smooth pb-4 [scrollbar-width:none] sm:-space-x-6 [&amp;::-webkit-scrollbar]:hidden">
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true">
+                                            <defs>
+                                                <linearGradient id=":R5ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R5ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 py-6">
+                                                        <div class="space-y-4">
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-sm font-semibold text-gray-900">Subject</div>
+                                                                <div class="text-sm font-semibold text-gray-900">Number of questions</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Neurology</div>
+                                                                <div class="text-xs font-medium text-gray-800">386</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Respirology</div>
+                                                                <div class="text-xs font-medium text-gray-800">379</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Cardiology</div>
+                                                                <div class="text-xs font-medium text-gray-800">361</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Gastroenterology</div>
+                                                                <div class="text-xs font-medium text-gray-800">341</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Nephrology</div>
+                                                                <div class="text-xs font-medium text-gray-800">295</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Endocrinology</div>
+                                                                <div class="text-xs font-medium text-gray-800">273</div>
+                                                            </div>
+                                                            <div class="rounded-lg bg-sky-500 py-2 px-3 text-center text-sm font-semibold text-white">Load more</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <defs>
+                                                <linearGradient id="unique-id-gradient" x1="14" y1="14.5" x2="7" y2="17" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#737373"></stop>
+                                                    <stop offset="1" stop-color="#D4D4D4" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4a4 4 0 014-4h14a4 4 0 014 4v13h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h4v2H9a4 4 0 01-4-4V4z" fill="#A3A3A3"></path>
+                                            <path d="M7 22c0-4.694 3.5-8 8-8" stroke="url(#unique-id-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z" fill="#A3A3A3"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Substantial collection of questions</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Get access to over 4,000 questions, including more than 3,500 multiple choice questions and 65 clinical decision-making cases. For ease of use, all questions are divided into topics and linked to specific learning objectives.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true" class="rotate-180">
+                                            <defs>
+                                                <linearGradient id=":R6ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R6ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 pt-5 pb-1">
+                                                        <h1 class="text-sm font-medium text-gray-900">Which of the following is not a symptom of an upper motor lesion?</h1>
+                                                    </div>
+                                                    <div class="p-4">
+                                                        <div class="pb-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Weakness</p>
+                                                                        <p class="text-xs font-light">Incorrect. Weakness is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Increased tone</p>
+                                                                        <p class="text-xs font-light">Incorrect. Increased tone is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-sky-600 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-green-500">
+                                                                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-white">
+                                                                        <p>Hyporeflexia</p>
+                                                                        <p class="text-xs font-light">Correct. Hyporeflexia is a symptom of lower motor neuron lesions. Hyperreflexia is a symptom of upper motor neuron lesions.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>Upgoing plantar reflexes</p>
+                                                                        <p class="text-xs font-light">Incorrect. Upgoing plantar reflexes is a symptom of an upper motor neuron lesion.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-1">
+                                                            <div class="rounded-md bg-gray-200 p-2">
+                                                                <div class="flex columns-2 gap-4">
+                                                                    <div class="col-span-1">
+                                                                        <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4 fill-red-600">
+                                                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-span-1 text-xs font-medium text-gray-900">
+                                                                        <p>All of these are symptoms of an upper motor lesion.</p>
+                                                                        <p class="text-xs font-light">Incorrect. Answer C, hyporeflexia, is a symptom of lower motor neuron lesions, not upper motor neuron lesions.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="divide-y divide-gray-100">
+                                                        <div class="flex items-center gap-4 px-4 py-3">
+                                                            <div class="flex-auto text-sm text-gray-900">Previous</div>
+                                                            <div class="flex-none text-right">
+                                                                <div class="text-sm text-gray-900">Next</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
+                                            <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Deepen your understanding</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Each question is followed by detailed explanations of all answer choices, allowing you to consolidate material and further your learning.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full flex-none snap-center px-4 sm:px-6">
+                                <div class="relative transform overflow-hidden rounded-2xl bg-gray-800 px-5 py-6">
+                                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                        <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true">
+                                            <defs>
+                                                <linearGradient id=":R7ct6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#0ea5e9"></stop>
+                                                    <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                            <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R7ct6:)" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="relative aspect-[1200/700] relative mx-auto min-h-full w-full max-w-[800px]">
+                                        <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                        <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="p-4">
+                                                        <div class="flex columns-2 justify-evenly gap-4 align-middle">
+                                                            <div class="col-span-1">
+                                                                <div class="px-4 pb-2">
+                                                                    <h1 class="pb-4 text-center text-xs font-light text-gray-900">Performance by subject</h1>
+                                                                    <img alt="" loading="lazy" width="200" height="200" decoding="async" data-nimg="1" class="justify-self-center" style="color:transparent" src="images/home/doughnut-chart.svg"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-span-1">
+                                                                <div class="px-4 pb-2">
+                                                                    <h1 class="pb-4 text-center text-xs font-light text-gray-900">Overall performance</h1>
+                                                                    <img alt="" loading="lazy" width="200" height="200" decoding="async" data-nimg="1" class="justify-self-center" style="color:transparent" src="images/home/line-chart.svg"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                        <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                    </div>
+                                    <div class="relative inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#737373"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.838V26a2 2 0 01-2 2H11a2 2 0 01-2-2V15.65l2.57 3.212a1 1 0 001.38.175L15.4 17.2a1 1 0 011.494.353l1.841 3.681c.399.797 1.562.714 1.843-.13L23 13.837z" fill="#c0c0c0"></path>
+                                            <path d="M10 12h12" stroke="#737373" stroke-width="2" stroke-linecap="square"></path>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                        </svg>
+                                        <h3 class="mt-6 text-sm font-semibold text-white sm:text-lg">Detailed performance metrics</h3>
+                                        <p class="mt-2 text-sm text-gray-400">Whether you are studying for an upcoming exam or brushing up on knowledge before writing the MCCQE, the advanced analytics provided allow you to track your progress and better identify gaps in knowledge.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex justify-center gap-3">
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-300" aria-label="Go to slide 1">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-500" aria-label="Go to slide 2">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                            <button type="button" class="relative h-0.5 w-4 rounded-full bg-gray-500" aria-label="Go to slide 3">
+                                <span class="absolute -inset-x-1.5 -inset-y-3"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 hidden lg:mt-20 lg:block">
+                        <button type="button" aria-hidden="true" style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0"></button>
+                        <div class="grid grid-cols-12 items-center gap-8 lg:gap-16 xl:gap-24">
+                            <div class="relative z-10 order-last col-span-6 space-y-6" role="tablist" aria-orientation="vertical">
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="absolute inset-0 bg-gray-800" style="border-radius:16px"></div>
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <defs>
+                                                <linearGradient id="unique-id-gradient" x1="14" y1="14.5" x2="7" y2="17" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#737373"></stop>
+                                                    <stop offset="1" stop-color="#D4D4D4" stop-opacity="0"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 4a4 4 0 014-4h14a4 4 0 014 4v13h-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9a2 2 0 00-2 2v24a2 2 0 002 2h4v2H9a4 4 0 01-4-4V4z" fill="#A3A3A3"></path>
+                                            <path d="M7 22c0-4.694 3.5-8 8-8" stroke="url(#unique-id-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M21 20l.217-5.513a1.431 1.431 0 00-2.85-.226L17.5 21.5l-1.51-1.51a2.107 2.107 0 00-2.98 0 .024.024 0 00-.005.024l3.083 9.25A4 4 0 0019.883 32H25a4 4 0 004-4v-5a3 3 0 00-3-3h-5z" fill="#A3A3A3"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R55mt6:" role="tab" type="button" aria-selected="true" tabindex="0" data-headlessui-state="selected">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Substantial collection of questions
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Get access to over 4,000 questions, including more than 3,500 multiple choice questions and 65 clinical decision-making cases. For ease of use, all questions are divided into topics and linked to specific learning objectives.</p>
+                                    </div>
+                                </div>
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" aria-hidden="true" class="h-8 w-8">
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#A3A3A3"></path>
+                                            <path d="M9 8a2 2 0 012-2h10a2 2 0 012 2v2a2 2 0 01-2 2H11a2 2 0 01-2-2V8z" fill="#737373"></path>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R59mt6:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Deepen your understanding
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Each question is followed by detailed explanations of all answer choices, allowing you to consolidate material and further your learning.</p>
+                                    </div>
+                                </div>
+                                <div class="relative rounded-2xl transition-colors hover:bg-gray-800/30">
+                                    <div class="relative z-10 p-8">
+                                        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" class="h-8 w-8">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0a4 4 0 00-4 4v24a4 4 0 004 4h14a4 4 0 004-4V4a4 4 0 00-4-4H9zm0 2a2 2 0 00-2 2v24a2 2 0 002 2h14a2 2 0 002-2V4a2 2 0 00-2-2h-1.382a1 1 0 00-.894.553l-.448.894a1 1 0 01-.894.553h-6.764a1 1 0 01-.894-.553l-.448-.894A1 1 0 0010.382 2H9z" fill="#737373"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.838V26a2 2 0 01-2 2H11a2 2 0 01-2-2V15.65l2.57 3.212a1 1 0 001.38.175L15.4 17.2a1 1 0 011.494.353l1.841 3.681c.399.797 1.562.714 1.843-.13L23 13.837z" fill="#c0c0c0"></path>
+                                            <path d="M10 12h12" stroke="#737373" stroke-width="2" stroke-linecap="square"></path>
+                                            <circle cx="16" cy="16" r="16" fill="#A3A3A3" fill-opacity="0.2"></circle>
+                                        </svg>
+                                        <h3 class="mt-6 text-lg font-semibold text-white">
+                                            <button class="text-left [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-tab-:R5dmt6:" role="tab" type="button" aria-selected="false" tabindex="-1" data-headlessui-state="">
+                                                <span class="absolute inset-0 rounded-2xl"></span>
+                                                Detailed performance metrics
+                                            </button>
+                                        </h3>
+                                        <p class="mt-2 text-sm text-gray-400">Whether you are studying for an upcoming exam or brushing up on knowledge before writing the MCCQE, the advanced analytics provided allow you to track your progress and better identify gaps in knowledge.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative col-span-6">
+                                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                                    <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true" class="animate-spin-slower">
+                                        <defs>
+                                            <linearGradient id=":R6mt6:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#0ea5e9"></stop>
+                                                <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#0ea5e9"></path>
+                                        <path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R6mt6:)" stroke-linecap="round"></path>
+                                    </svg>
+                                </div>
+                                <div class="relative aspect-[1200/700] z-10 mx-auto min-h-full w-full max-w-[800px]">
+                                    <div class="absolute inset-y-[calc(1/700*100%)] right-[calc(5/700*100%)] left-[calc(7/700*100%)] rounded-[calc(50/1200*100%)/calc(58/700*100%)] shadow-2xl"></div>
+                                    <div class="absolute top-[calc(42/700*100%)] left-[calc(0/1200*100%)] grid h-[calc(658/700*100%)] w-[calc(1200/1200*100%)] transform grid-cols-1 overflow-hidden rounded-md bg-sky-900 pt-[calc(0/700*100%)]">
+                                        <div class="col-start-1 row-start-1 flex focus:outline-offset-[32px] [&amp;:not(:focus-visible)]:focus:outline-none" id="headlessui-tabs-panel-:Rdamt6:" role="tabpanel" tabindex="0" data-headlessui-state="selected">
+                                            <div class="flex flex-col w-full">
+                                                <div class="px-2 pt-2">
+                                                    <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-5 w-5" style="color:transparent" src="/icon_white.svg"/>
+                                                </div>
+                                                <div class="mt-2 flex-auto rounded-b-lg bg-white">
+                                                    <div class="px-4 py-6">
+                                                        <div class="space-y-4">
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-sm font-semibold text-gray-900">Subject</div>
+                                                                <div class="text-sm font-semibold text-gray-900">Number of questions</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Neurology</div>
+                                                                <div class="text-xs font-medium text-gray-800">386</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Respirology</div>
+                                                                <div class="text-xs font-medium text-gray-800">379</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Cardiology</div>
+                                                                <div class="text-xs font-medium text-gray-800">361</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Gastroenterology</div>
+                                                                <div class="text-xs font-medium text-gray-800">341</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Nephrology</div>
+                                                                <div class="text-xs font-medium text-gray-800">295</div>
+                                                            </div>
+                                                            <div class="flex justify-between border-b border-gray-100 pb-4">
+                                                                <div class="text-xs text-gray-500">Endocrinology</div>
+                                                                <div class="text-xs font-medium text-gray-800">273</div>
+                                                            </div>
+                                                            <div class="rounded-lg bg-sky-500 py-2 px-3 text-center text-sm font-semibold text-white">Load more</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <svg viewBox="0 0 1200 700" aria-hidden="true" class="pointer-events-none absolute inset-0 h-full w-full fill-gray-100"></svg>
+                                    <img alt="" loading="lazy" width="1200" height="700" decoding="async" data-nimg="1" class="pointer-events-none absolute inset-0 h-full w-full" style="color:transparent" src="/_next/static/media/browser-frame.83116dc0.svg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="pricing" aria-labelledby="pricing-title" class="border-t border-gray-200 bg-gray-100 py-20 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl text-center">
+                            <h2 id="pricing-title" class="text-3xl font-medium tracking-tight text-gray-900">Flat pricing, no extra fees.</h2>
+                            <p class="mt-2 text-lg text-gray-600">All plans give you full, unrestricted access to all features of the Ottawa Question Bank for the duration of your subscription.</p>
+                        </div>
+                        <div class="mt-8 flex justify-center">
+                            <div class="relative">
+                                <div aria-hidden="true" class="pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-sky-500 transition-all duration-300"></div>
+                            </div>
+                        </div>
+                        <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3">
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
+                                <h3 class="flex items-center text-sm font-semibold text-gray-900">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon.svg"/>
+                                    <span class="ml-4">3 Months</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-gray-900">$65</p>
+                                <p class="mt-3 text-sm text-gray-700">You will be billed every three months.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-200 text-gray-700">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6" disabled="">Trimonthly billing</button>
+                            </section>
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
+                                <h3 class="flex items-center text-sm font-semibold text-gray-900">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon.svg"/>
+                                    <span class="ml-4">6 Months</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-gray-900">$99</p>
+                                <p class="mt-3 text-sm text-gray-700">You will be billed every six months.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-200 text-gray-700">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-sky-500">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6" disabled="">Semiannual billing</button>
+                            </section>
+                            <section class="flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 order-first bg-gray-900 lg:order-none">
+                                <h3 class="flex items-center text-sm font-semibold text-white">
+                                    <img alt="" loading="lazy" width="6" height="6" decoding="async" data-nimg="1" class="h-6 w-6 flex-none" style="color:transparent" src="/icon_white.svg"/>
+                                    <span class="ml-4">1 Year</span>
+                                </h3>
+                                <p class="relative mt-5 flex text-3xl tracking-tight text-white">$149</p>
+                                <p class="mt-3 text-sm text-gray-300">You will be billed every year.</p>
+                                <div class="order-last mt-6">
+                                    <ul role="list" class="-my-2 divide-y text-sm divide-gray-800 text-gray-300">
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">More than 4,200 MCQs</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Over 65 clinical cases</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">A community of 600 active users</span>
+                                        </li>
+                                        <li class="flex py-2">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 flex-none text-white">
+                                                <path d="M9.307 12.248a.75.75 0 1 0-1.114 1.004l1.114-1.004ZM11 15.25l-.557.502a.75.75 0 0 0 1.15-.043L11 15.25Zm4.844-5.041a.75.75 0 0 0-1.188-.918l1.188.918Zm-7.651 3.043 2.25 2.5 1.114-1.004-2.25-2.5-1.114 1.004Zm3.4 2.457 4.25-5.5-1.187-.918-4.25 5.5 1.188.918Z" fill="currentColor"></path>
+                                                <circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                            </svg>
+                                            <span class="ml-4">Detailed performance data</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors mt-6 bg-sky-600 text-white hover:bg-sky-700" disabled="">Yearly billing</button>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="border-t border-gray-200 bg-white">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col items-center justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:py-16">
+                    <div class="flex items-center text-gray-900">
+                        <img alt="" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-8 w-auto sm:h-10" style="color:transparent" src="/icon.svg"/>
+                        <div class="ml-4">
+                            <p class="text-base font-semibold">The Ottawa Question Bank</p>
+                            <p class="mt-1 text-sm">Master your medical knowledge</p>
+                            <div class="col-auto mx-2 flex items-center justify-between space-x-2 pt-2">
+                                <a class="group -m-1 p-1" aria-label="Facebook" href="https://www.facebook.com/theottawaquestionbank">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a class="group -m-1 p-1" aria-label="Instagram" href="https://www.instagram.com/theottawaquestionbank/">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a class="group -m-1 p-1" aria-label="LinkedIn" href="https://www.linkedin.com/company/the-ottawa-question-bank/">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                                        <path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="my-4 flex gap-8">
+                        <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#features">
+                            <span class="relative z-10">Features</span>
+                        </a>
+                        <a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#pricing">
+                            <span class="relative z-10">Pricing</span>
+                        </a>
+                    </nav>
+                </div>
+                <div class="flex flex-col items-center border-t border-gray-200 pt-8 pb-12">
+                    <p class="mt-6 text-sm text-gray-500 md:mt-0">
+                        © <!-- -->
+                        Copyright<!-- -->
+                        <!-- -->
+                        2023<!-- -->
+                        .<!-- -->
+                        <!-- -->
+                        All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_nextI18Next":{"initialI18nStore":{"en":{"common":{"main":{"title":"The Ottawa Question Bank","description":"Description","header":{"features":"Features","pricing":"Pricing","sign_in":"Sign in"},"hero":{"h1":"Master your medical knowledge","h2":"The Ottawa Question Bank is a comprehensive database of medical questions and answers, designed to help you assess your knowledge and prepare for exams.","app":{"title":"Radiology of the Hip and Knee","question":"Which structures are represented by A and B in the AP pelvis X-ray shown below?","answer_1":"A: Sacral ring, B: Obturator foramina","answer_2":"A: Pelvic ring, B: Acetabular ring","answer_3":"A: Obturator foramen, B: Acetabular ring","answer_4":"A: Pelvic ring, B: Sacral ring","answer_5":"A: Main pelvic ring, B: Obturator foramina"}},"features":{"h1":"Includes all the features you need to succeed.","h2":"Created entirely by medical students, the Ottawa Question Bank is a reliable and user-friendly resource. Crafted specifically for Canadians, all content is in line with the national objectives for medical education and reflects Canadian clinical guidelines.","questions_h":"Substantial collection of questions","questions_t":"Get access to over 4,000 questions, including more than 3,500 multiple choice questions and 65 clinical decision-making cases. For ease of use, all questions are divided into topics and linked to specific learning objectives.","questions":{"subject":"Subject","number":"Number of questions","neurology":"Neurology","respirology":"Respirology","cardiology":"Cardiology","gastroenterology":"Gastroenterology","nephrology":"Nephrology","endocrinology":"Endocrinology","more":"Load more"},"understanding_h":"Deepen your understanding","understanding_t":"Each question is followed by detailed explanations of all answer choices, allowing you to consolidate material and further your learning.","understanding":{"question":"Which of the following is not a symptom of an upper motor lesion?","answer_1":"Weakness","explanation_1":"Incorrect. Weakness is a symptom of an upper motor neuron lesion.","answer_2":"Increased tone","explanation_2":"Incorrect. Increased tone is a symptom of an upper motor neuron lesion.","answer_3":"Hyporeflexia","explanation_3":"Correct. Hyporeflexia is a symptom of lower motor neuron lesions. Hyperreflexia is a symptom of upper motor neuron lesions.","answer_4":"Upgoing plantar reflexes","explanation_4":"Incorrect. Upgoing plantar reflexes is a symptom of an upper motor neuron lesion.","answer_5":"All of these are symptoms of an upper motor lesion.","explanation_5":"Incorrect. Answer C, hyporeflexia, is a symptom of lower motor neuron lesions, not upper motor neuron lesions."},"progress_h":"Detailed performance metrics","progress_t":"Whether you are studying for an upcoming exam or brushing up on knowledge before writing the MCCQE, the advanced analytics provided allow you to track your progress and better identify gaps in knowledge.","progress":{"subject":"Performance by subject","overall":"Overall performance"},"community_h":"There is strength in numbers","community_t":"Join a community of 600 medical students, with whom you can discuss questions and clinical cases."},"pricing":{"header_1":"Flat pricing, no extra fees.","header_2":"Every new plan purchase comes with a no-obligation, 7-day trial period.","header_3":"In order to purchase a plan, you must first create an account. Then, you can subscribe from the Dashboard.","trimonthly":"3 Months","trimonthly_desc":"You will be billed every three months.","semiannually":"6 Months","semiannually_desc":"You will be billed every six months.","yearly":"1 Year","yearly_desc":"You will be billed every year.","subscribe":"Subscribe"},"footer":{"copyright":"Copyright","rights":"All rights reserved."},"about":{"title":"About","description":"The Ottawa Question Bank (OQB) is a crowdsourced, comprehensive assessment tool created by medical students at the University of Ottawa. It was developed to address the growing need for self-assessment tools that can be used by medical students across Canada.","features":{"header":"All-in-one platform to optimize your studying.","p1":"The Ottawa Question Bank is unlike other costly question banks on the market. As a student-led corporation, our goal is to deliver a comprehensive study resource at a small cost while donating our profits to charity. We can afford to do this because of the large community of student contributors who continue to believe that accessible knowledge is more important than financial wealth and have therefore donated their time to make this project a reality.","p2":"Several studies over the past decade have demonstrated that question development helps to consolidate information, uncover previously held misconceptions and ultimate retain information more quickly and efficiency. There is therefore as much to gain from purchasing the question bank as there is from contributing to it. Any medical student across Canada can become a the OQB Contributor!","p3":"Proceeds are donated to various Canadian organizations that support medical students, residents, and allied healthcare members. As of September 2023, The Question Bank has raised $13,000 for charity.","p4":"Welcome again to the OQB community and all the best in your academic journey!","feature_1_h":"Number of questions","feature_1_d":"More than 4,200 MCQs and 60 CDMQs covering every uOttawa pre-clerkship lecture, including general medical theory, pathophysiology, physician skills development, case-based decision-making, anatomy, histology, pathology, and radiology.","feature_2_h":"Regularly-updated and peer-reviewed","feature_2_d":"New questions are added on an ongoing basis and existing content is updated to reflect current practice guidelines. Moreover, all questions have undergone five rounds of thorough peer-review to ensure accuracy, appropriate difficulty, and relevance to the curriculum.","feature_3_h":"User-friendly platform","feature_3_d":"Questions are completed on our updated portal, allowing for an experience that closely mimics virtual MCQ examinations throughout pre-clerkship. Plus, users can track their progress and identify areas for improvement with detailed statistics.","feature_4_h":"Objective-based learning","feature_4_d":"All questions are linked to at least one MCC objective, objectives that are shared by all Canadian curricula and tested on the MCCQE Part I.","feature_5_h":"Answer key","feature_5_d":"All questions have a detailed answer key which explains why each answer option is correct or incorrect, designed to increase student learning and knowledge retention.","feature_6_h":"Completely bilingual","feature_6_d":"The entire question bank has been translated and reviewed; all questions are available both in English and in French."}},"team":{"heading":"Our Team","description":"We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.","mario":{"photo_alt":"Portrait of Mario Corrado","name":"Dr. Mario Corrado, MD, M.Sc.","role":"Founder, President, and Chief Executive Officer","bio":"Born and raised in Montréal, Quebec, I earned a B.Sc. in Microbiology and Immunology and M.Sc. in Physiology from McGill University before completing medical school at the University of Ottawa in 2023. I am currently an internal medicine resident at the University of Toronto, based at Sunnybrook Hospital. Outside of medicine I love hiking and going to the gym. I’m an avid non-fiction reader and hockey enthusiast, and spend as much time as I can with my friends and family, either on long walks or at one of Toronto’s many cafés. I have a strong passion for medical education and teaching, and love working in the team environment of internal medicine. While serving as the VP Academic of the uOttawa’s medical student society, I was surprised with the scarcity of Canadian-focused practice questions, and thus was born the Ottawa Question Bank as an attempt to provide medical students across Canada and abroad with a comprehensive, bilingual study resource."},"isabelle":{"photo_alt":"Portrait of Isabelle Lefebvre","name":"Isabelle Lefebvre, B.H.Sc.","role":"","bio":""},"rikesh":{"photo_alt":"Portrait of Rikesh Raichura","name":"Rikesh Raichura","role":"","bio":""}}},"tutorial":{"title":"Tutorial","description":"This brief tutorial will provide a run-through of the platform and how it can be used to optimize your learning. New features and questions will continue to be added!","navigation":"Tutorial Navigation","step":"Step","step_1.1":"Let’s start at the beginning. Once a user logs in, they are brought to the site’s landing page, shown below.","step_1.2":"Navigating to the “Questions” tab from the left-hand menu will bring the user to the entire Ottawa Question Bank, which is organized into five units: Foundations Unit, Unit I, Unit II, Unit III, and Unit IV.","step_1.3":"Within each unit, there are several topics which, when their questions are totalled, equate to over 4,200 multiple-choice questions and more than 60 clinical decision-making questions. Our repository of questions will continue to grow over time.","step_2.1":"As an example, let’s look at Unit I, which covers cardiology, respirology, oncology, and nephrology. Below is a snapshot of the first topics of Unit I.","step_3.1":"Let’s now navigate to “02 — Heart failure” to access the quizzes available for the topic of heart failure.","step_3.2":"A green dot preceding a lecture title indicates that the user has attempted this quiz.","step_3.3":"The “Attempts” column alerts the user to how many times they have attempted that quiz (quizzes can be attempted an unlimited number of times).","step_3.4":"The “Best Score” column denotes the user’s highest achieved score for a given quiz.","step_4.1":"Let’s attempt the “Heart Failure” quiz to get an idea of the user interface when attempting a quiz.","step_4.2":"Note that great care has gone into creating a user interface that is similar to what may be seen on the uOttawa online medical school exams, which is also similar to the MCCQE1 interface.","step_4.3":"When attempting a quiz, users will note four icons in the top-right corner: a globe, a moon, a caution symbol (an exclamation mark within a triangle), and an exit symbol (an x within a circle).","step_4.4":"Clicking on the globe will allow the user to toggle between English and French.","step_4.5":"Clicking on the moon will change the “theme” from light to dark (great for making late-night study sessions less tiresome on the eyes).","step_4.6":"Clicking on the caution symbol allows the user to provide feedback about the current question. A popup will appear with a textbox for the user to provide comments or explanations.","step_4.7":"Clicking on the exit symbol will pause the quiz attempt (which can be resumed at any time) and bring the user to the results page.","step_5.1":"Below is an example of a question as it would appear to the user. Once an answer option is selected, the user is notified of the correct answer and a detailed answer key is available explaining why both the correct and incorrect answers are as such.","step_6.1":"Once a quiz is complete, the user will be directed to a summary page as seen below. Users can also compare their score to the average score achieved by all other users who have attempted that particular quiz.","step_7.1":"If a user were to now return to this same quiz, they would encounter the following page. Here the user can find their previous attempts, review individual attempts, and start a new attempt.","step_8.1":"Now let’s navigate to the “Performance” tab on the left-hand side of the screen, as seen below. Here the user can get a large-scale overview of their progress through the Ottawa Question Bank and can also begin to learn about potential areas for improvement. In the case below, the user may want to further review radiology and infectious diseases before reattempting associated quizzes.","step_8.2":"New features will continue to be added as we continue to improve the Ottawa Question Bank.","step_8.3":"Thank you and good luck!"},"dashboard":{"hello":"Hello","statistics":"Performance Overview","days":"Last 30 days","total_questions":"Questions answered","correct":"Correct answers","quizzes":"Quizzes attempted","quiz_section":{"header":"Most Recent Quizzes"},"menu":{"dashboard":"Dashboard","questions":"Questions","performance":"Performance","profile":"My profile","settings":"Quick settings","language":"Français","theme":"Theme"},"coming_soon":"Coming soon","profile":{"title":"Profile","description":"Your the Ottawa Question Bank profile","photo":"Profile photo","name":"Full name","username":"Username","username_description":"Your username will be used to identify you in leaderboards.","email":"Email address","email_description":"You may not modify your email address, as it is used to identify your account.","academic_information":{"header":"Academic Information","university":"University","language":"Language of study","cohort":"Cohort","program":"Program type","education":{"description":"Highest level of education achieved prior to medical school","high_school":"High school","cegep":"CÉGEP","college":"College certificate or diploma","bachelor":"Bachelor’s degree","master":"Master’s degree","doctoral":"Doctoral degree (PhD)","professional":"Professional degree (i.e., DDS, DVM, PharmD)"}},"select":"Please select an option below.","menu":{"account":"Account","subscription":"Subscription"},"save":"Save","cancel":"Cancel"},"subscription":{"title":"Subscription","description":"Your subscription information for the Ottawa Question Bank","status_header":"Subscription Status","status":"Your subscription is","subscribe":"Subscribe","manage":"Manage subscription and billing","not":"You are not subscribed."}},"quiz":{"questions":"Questions","start":"Start the quiz","return":"Return to menu","author":"Author(s):","author_team":"The Ottawa Question Bank Team","navigation":{"of":"of","previous":"Previous","next":"Next","submit":"Finish"},"validate":"Validate","total_score":"Total score","feedback":{"title":"Provide feedback","description":"Use the form below to provide feedback about the current question.","header_1":"Nature of feedback","category":{"grammar":"Grammar and spelling","incorrect_content":"Incorrect content","missing_content":"Missing content","technical":"Technical issue","media":"Media feedback (e.g., photos or diagrams)","general":"General feedback","praise":"Praise","other":"Other"},"header_2":"Additional information","text":"Please include any clarifications here.","cancel":"Cancel","submit":"Submit","successful":"Thank you for your feedback! Your comments will be reviewed by one of our editors shortly.","error_1":"Failed to submit feedback. Please try again.","error_2":"Please select a feedback category and provide a short explanation."},"review":{"title":"Review of Attempt","description":"Review your quiz attempt.","questions_answered":"Questions answered","score":"Total score","peer_average":"Average result among all users","of":"of","return_home":"Return home","return_questions":"Return to questions menu"}},"questions":{"title":"Questions","description":"The Ottawa Question Bank’s repository of questions","navigation":{"uOttawa":"uOttawa Curriculum","LMCC":"MCCQE Objectives"},"uOttawaCurriculum":{"table":{"course":"Course title","questions_header":"Questions","questions":"questions","attempts":"Attempts","attempt":"attempt(s)","best_grade":"Best score"}}},"performance":{"title":"Performance","statistics":{"header":"Statistics","30_days":"Last 30 Days","all_time":"All Time"},"latest":"Latest quiz attempts","answered":"Answered","review":"Review","resume":"Resume","previous_attempts":"Previous attempts","status":"Status","score":"Score","date":"Date","action":"Action","finished":"Finished","in_progress":"In progress"},"coming_soon":{"title":"Coming soon"},"pricing":{"title":"Pricing","description":"Subscription plans for the Ottawa Question Bank.","per_3_months":"/3 months","per_6_months":"/6 months","per_year":"/year","trimonthly_billing":"Trimonthly billing","semiannually_billing":"Semiannual billing","yearly_billing":"Yearly billing","get":"Get access","features":{"mcqs":"More than 4,200 MCQs","users":"A community of 600 active users","cases":"Over 65 clinical cases","performance":"Detailed performance data"},"most_popular":"Most popular","header_1":"Choose the right plan for you","header_2":"You must be subscribed to view the contents of this page.","header_3":"All plans give you full, unrestricted access to all features of the Ottawa Question Bank for the duration of your subscription.","membership_header":"One-year membership","included":"What’s included","get_access":"Register now and get access for an entire year.","payments":"All payments are processed securely via Stripe."}}},"fr":{"common":{"main":{"title":"La Banque de questions d’Ottawa","description":"Description","header":{"features":"Fonctions","pricing":"Facturation","sign_in":"Se connecter"},"hero":{"h1":"Maîtrisez vos connaissances médicales","h2":"La Banque de questions d’Ottawa est une base de données complète de questions médicales, conçue pour vous aider à évaluer vos connaissances et à vous préparer aux examens.","app":{"title":"Radiologie de la hanche et du genou","question":"Quelles structures sont représentées par A et B sur la radiographie de bassin (PA) ci-dessous ?","answer_1":"A : Anneau sacré, B : Foramens obturateurs","answer_2":"A : Anneau pelvien, B : Anneaux acétabulaires","answer_3":"A : Foramen obturateur, B : Anneaux acétabulaires","answer_4":"A : Anneau pelvien, B : Anneaux sacrés","answer_5":"A : Anneau pelvien principal, B : Foramens obturateurs"}},"features":{"h1":"Comprend toutes les fonctions dont vous avez besoin pour réussir.","h2":"Créée entièrement par des étudiants en médecine, la Banque de questions d’Ottawa est une ressource fiable et intuitive. Conçue spécifiquement pour les Canadiens, tout le contenu est conforme aux objectifs nationaux pour l’éducation médicale et reflète les lignes directrices cliniques canadiennes.","questions_h":"Vaste collection de questions","questions_t":"Accédez à plus de 4 000 questions, dont plus de 3 500 questions à choix multiples et 65 cas de prise de décision clinique. Pour faciliter l’utilisation, toutes les questions sont divisées par sujets et liées à des objectifs d’apprentissage spécifiques.","questions":{"subject":"Matière","number":"Nombre de questions","neurology":"Neurologie","respirology":"Respirologie","cardiology":"Cardiologie","gastroenterology":"Gastro-entérologie","nephrology":"Néphrologie","endocrinology":"Endocrinologie","more":"Afficher plus"},"understanding_h":"Approfondissez votre compréhension","understanding_t":"Chaque question est suivie d’explications détaillées de toutes les réponses possibles, ce qui vous permet de consolider vos connaissances et d’approfondir votre apprentissage.","understanding":{"question":"Lequel des symptômes suivants n’est pas un signe d’une lésion des motoneurones supérieurs ?","answer_1":"Faiblesse","explanation_1":"Incorrect. La faiblesse est un symptôme d’une lésion des motoneurones supérieurs.","answer_2":"Hypertonie","explanation_2":"Incorrect. L’hypertonie est un symptôme d’une lésion des motoneurones supérieurs.","answer_3":"Hyporéflexie","explanation_3":"Correct. L’hyporéflexie est un symptôme des lésions des motoneurones inférieurs. L’hyper-réflexie est un symptôme des lésions des motoneurones supérieurs.","answer_4":"Réflexes plantaires en extension","explanation_4":"Incorrect. Les réflexes plantaires en extension sont un symptôme d’une lésion des motoneurones supérieurs.","answer_5":"Tous ces symptômes sont des signes d’une lésion des motoneurones supérieurs.","explanation_5":"Incorrect. La réponse C, l’hyporéflexie, est un symptôme des lésions des motoneurones inférieurs, pas des motoneurones supérieurs."},"progress_h":"Des métriques de performance détaillées","progress_t":"Que vous prépariez un prochain examen ou que vous révisiez vos connaissances avant de passer l’examen d’aptitude du Conseil médical du Canada, les analyses avancées vous permettent de suivre vos progrès et d’identifier plus facilement vos lacunes de connaissances.","progress":{"subject":"Performance par matière","overall":"Performance globale"},"community_h":"L’union fait la force","community_t":"Rejoignez une communauté de 600 étudiants en médecine avec lesquels vous pouvez discuter des questions et des cas cliniques."},"pricing":{"header_1":"Tarification fixe, aucun frais supplémentaire.","header_2":"Chaque achat de nouveau plan est assorti d’une période d’essai de 7 jours sans obligation.","header_3":"Pour acheter un plan, vous devez d’abord créer un compte. Ensuite, vous pouvez vous abonner depuis le tableau de bord.","trimonthly":"Trois mois","trimonthly_desc":"Vous serez facturé tous les trois mois.","semiannually":"Six mois","semiannually_desc":"Vous serez facturé tous les six mois.","yearly":"Un an","yearly_desc":"Vous serez facturé chaque année.","subscribe":"S’abonner"},"footer":{"copyright":"Droits d’auteur","rights":"Tous droits réservés."},"about":{"title":"À propos","description":"La Banque de questions d’Ottawa (BQO) est un outil d’évaluation complet créé par des étudiants en médecine de l’Université d’Ottawa. Elle a été développée pour répondre au besoin croissant d’outils d’auto-évaluation pouvant être utilisés par les étudiants en médecine partout au Canada.","features":{"header":"Plateforme tout-en-un pour optimiser votre étude.","p1":"La Banque de questions d’Ottawa est différente des autres banques de questions coûteuses sur le marché. En tant qu’entreprise dirigée par des étudiants, notre objectif est de fournir une ressource d’étude complète à un prix modique tout en reversant nos profits à des œuvres caritatives. Ceci est possible grâce à la grande communauté d’étudiants contributeurs qui continuent à croire que l’accès à des ressources éducatives de haute qualité est plus important que la prospérité financière et qui ont donc donné de leur temps pour faire de ce projet une réalité.","p2":"Plusieurs études au cours de la dernière décennie ont démontré que le développement de questions aide à consolider l’information, à mettre en lumière les idées fausses précédemment détenues et à retenir l’information plus rapidement et efficacement. Il y a donc autant à gagner de l’achat de la Banque de questions que de contribuer à celle-ci. Tout étudiant en médecine au Canada peut devenir un contributeur de la BQO !","p3":"Les profits sont versés à diverses organisations canadiennes qui soutiennent les étudiants en médecine, les résidents, et les professionnels de la santé. En septembre 2023, la Banque de questions d’Ottawa a recueilli plus de 13 000 $ pour des œuvres caritatives.","p4":"Bienvenue dans la communauté de la BQO et bon courage dans votre parcours académique !","feature_1_h":"Nombre de questions","feature_1_d":"Plus de 4 200 QCM et 60 QPDC couvrant tous les cours du préexternat de l’Université d’Ottawa, y compris la théorie médicale générale, la physiopathologie, le développement des compétences cliniques, la prise de décision clinique, l’anatomie, l’histologie, la pathologie, et la radiologie.","feature_2_h":"Régulièrement mis à jour et revus par les pairs","feature_2_d":"De nouvelles questions sont ajoutées en continu et le contenu existant est mis à jour pour refléter les lignes directrices de la pratique actuelle. En outre, toutes les questions ont fait l’objet de cinq séries de révisions approfondies par des pairs afin de garantir leur exactitude, un niveau de difficulté approprié et leur pertinence par rapport au programme d’études.","feature_3_h":"Plateforme facile à utiliser","feature_3_d":"Les questions sont complétées sur notre nouveau portail, ce qui permet de reproduire avec fidélité les examens virtuels du préexternat. De plus, les utilisateurs peuvent suivre leurs progrès et identifier les domaines à améliorer grâce à des statistiques détaillées.","feature_4_h":"Apprentissage par objectifs","feature_4_d":"Chaque question est liée à au moins un objectif du CMC, objectifs qui sont communs à tous les programmes d’études canadiens et qui sont testés lors de l’EACMC, partie I.","feature_5_h":"Clé de réponse","feature_5_d":"Toutes les questions sont accompagnées d’un corrigé détaillé qui explique pourquoi chaque option de réponse est correcte ou incorrecte, afin d’améliorer l’apprentissage des étudiants et la rétention des connaissances.","feature_6_h":"Complètement bilingue","feature_6_d":"L’ensemble de la banque de questions a été traduit et révisé ; toutes les questions sont disponibles en anglais et en français."}},"team":{"heading":"Notre équipe","description":"Nous sommes un groupe dynamique de personnes passionnées par ce que nous faisons et soucieuses d’obtenir les meilleurs résultats pour nos clients.","mario":{"photo_alt":"Portrait de Mario Corrado","name":"Dr Mario Corrado, MD, M.Sc.","role":"Fondateur, Président et Directeur exécutif","bio":"Originaire de Montréal, j’ai obtenu un baccalauréat en microbiologie et immunologie ainsi qu’une maîtrise en physiologie de l’Université McGill avant de poursuivre mes études en médecine à l’Université d’Ottawa (MD 2023). Je suis présentement résident en médecine interne à l’Université de Toronto, à l’hôpital Sunnybrook. À l’extérieur de la médecine, j’aime faire de la randonnée et aller au gym. Je passe le plus de temps possible avec mes amis et ma famille, que ce soit pendant de longues promenades ou dans l’un des nombreux petits cafés de Toronto. Je suis passionné par l’éducation médicale et l’enseignement, et j’aime travailler dans l’environnement collaboratif de la médecine interne. Alors que j’étais Vice-président des affaires académiques de la Société des étudiants en médecine de l’Université d’Ottawa, j’ai été surpris par la rareté des questions pratiques axées sur les besoins des étudiants canadiens. C’est ainsi qu’est née la Banque de questions d’Ottawa, qui vise à fournir aux étudiants en médecine du Canada une ressource d’étude complète et bilingue."},"isabelle":{"photo_alt":"Portrait d’Isabelle Lefebvre","name":"Isabelle Lefebvre, B.H.Sc.","role":"","bio":""},"rikesh":{"photo_alt":"Portrait de Rikesh Raichura","name":"Rikesh Raichura","role":"","bio":""}}},"tutorial":{"title":"Tutoriel","description":"Ce bref tutoriel présente la plateforme et la manière dont elle peut être utilisée pour optimiser votre apprentissage. De nouvelles fonctionnalités et questions continueront d’être ajoutées !","navigation":"Navigation du tutoriel","step":"Étape","step_1.1":"Commençons par le début. Une fois qu’un utilisateur s’est connecté, il arrive sur la page d’accueil du site, illustrée ci-dessous.","step_1.2":"En cliquant sur l’onglet « Questions » dans le menu de gauche, l’utilisateur accède à l’ensemble de la Banque de questions d’Ottawa, qui est organisée en cinq unités : l’Unité des fondements de la médecine, l’Unité I, l’Unité II, l’Unité III et l’Unité IV.","step_1.3":"Dans chaque unité, il y a plusieurs thèmes qui, lorsque leurs questions sont totalisées, équivalent à plus de 4 200 questions à choix multiples et plus de 60 questions de prise de décision clinique. Notre répertoire de questions continuera à s’enrichir au fil du temps.","step_2.1":"Prenons l’exemple de l’Unité I, qui couvre la cardiologie, la pneumologie, l’oncologie et la néphrologie. Voici un aperçu des premiers thèmes de l’Unité I.","step_3.1":"Naviguons maintenant vers « 02 — Insuffisance cardiaque » pour accéder aux quiz disponibles sur le thème de l’insuffisance cardiaque.","step_3.2":"Un point vert précédant le titre d’un cours indique que l’utilisateur a tenté ce quiz.","step_3.3":"La colonne « Tentatives » indique à l’utilisateur combien de fois il a complété ce quiz (les quiz peuvent être complétés un nombre illimité de fois).","step_3.4":"La colonne « Meilleur score » indique le meilleur score obtenu par l’utilisateur pour un quiz donné.","step_4.1":"Essayons le quiz « Insuffisance cardiaque » pour avoir une idée de l’interface utilisateur lors d’un quiz.","step_4.2":"Il est à noter qu’un soin particulier a été apporté à la création d’une interface similaire à celle des examens en ligne de la Faculté de médecine de l’Université d’Ottawa ainsi qu’à l’interface de l’EACMC.","step_4.3":"Lorsqu’ils effectuent un quiz, les utilisateurs remarquent quatre icônes dans le coin supérieur droit : un globe, une lune, un symbole d’avertissement (un point d’exclamation dans un triangle) et un symbole de sortie (un x dans un cercle).","step_4.4":"En cliquant sur le globe, l’utilisateur peut basculer entre l’anglais et le français.","step_4.5":"En cliquant sur la lune, le « thème » passe de clair à foncé (idéal pour rendre les sessions d’étude nocturnes moins fatigantes pour les yeux).","step_4.6":"En cliquant sur le symbole d’avertissement, l’utilisateur peut donner de la rétroaction sur la question en cours. Une fenêtre contextuelle s’affiche avec une zone de texte permettant à l’utilisateur de fournir des commentaires ou des explications.","step_4.7":"En cliquant sur le symbole de sortie, l’utilisateur interrompt la tentative de quiz (qu’il peut reprendre à tout moment) et accède à la page des résultats.","step_5.1":"Vous trouverez ci-dessous un exemple de question telle qu’elle apparaîtrait à l’utilisateur. Une fois qu’une option de réponse est sélectionnée, l’utilisateur est informé de la bonne réponse et un corrigé détaillé est disponible, expliquant pourquoi les réponses correctes et incorrectes sont telles.","step_6.1":"Une fois le quiz terminé, l’utilisateur est dirigé vers une page de résumé, comme démontré ci-dessous. Les utilisateurs peuvent également comparer leur score à la moyenne des scores obtenus par tous les autres utilisateurs qui ont effectué ce quiz.","step_7.1":"Si un utilisateur revenait maintenant à ce même quiz, il tomberait sur la page suivante. L’utilisateur peut y trouver ses tentatives précédentes, revoir ces tentatives, et commencer une nouvelle tentative.","step_8.1":"Passons maintenant à l’onglet « Performance » sur le côté gauche de l’écran, comme indiqué ci-dessous. Ici, l’utilisateur peut obtenir une vue d’ensemble de ses progrès dans la Banque de questions d’Ottawa et commencer à découvrir les domaines dans lesquels il pourrait s’améliorer. Dans le cas ci-dessous, l’utilisateur pourrait vouloir revoir la radiologie et les maladies infectieuses avant de retenter les quiz associés.","step_8.2":"De nouvelles fonctionnalités seront ajoutées au fur et à mesure de l’amélioration de la Banque de questions d’Ottawa.","step_8.3":"Merci et bon succès !"},"dashboard":{"hello":"Bonjour","statistics":"Vue d’ensemble des performances","days":"30 derniers jours","total_questions":"Questions répondues","correct":"Réponses correctes","quizzes":"Questionnaires tentés","quiz_section":{"header":"Dernières tentatives"},"menu":{"dashboard":"Tableau de bord","questions":"Questions","performance":"Performance","profile":"Mon profil","settings":"Réglages rapides","language":"English","theme":"Thème"},"coming_soon":"Bientôt disponible","profile":{"title":"Profil","description":"Votre profil de la Banque de questions d’Ottawa","photo":"Photo de profil","name":"Prénom et nom","username":"Nom d’utilisateur","username_description":"Votre nom d’utilisateur sera utilisé pour vous identifier dans les tableaux de classement.","email":"Courriel","email_description":"Vous ne pouvez pas modifier votre adresse électronique, car elle est utilisée pour identifier votre compte.","academic_information":{"header":"Information académique","university":"Université","language":"Langue d’étude","cohort":"Cohorte","program":"Type de programme","education":{"description":"Plus haut niveau d’études atteint avant l’école de médecine","high_school":"École secondaire","cegep":"CÉGEP","college":"Certificat ou diplôme collégial","bachelor":"Baccalauréat","master":"Maîtrise","doctoral":"Doctorat (PhD)","professional":"Diplôme professionnel (c.-à-d., DDS, DVM, PharmD)"}},"select":"Veuillez sélectionner une option ci-dessous.","menu":{"account":"Compte","subscription":"Abonnement"},"save":"Sauvegarder","cancel":"Annuler"},"subscription":{"title":"Abonnement","description":"Vos informations d’abonnement à La banque de questions d’Ottawa","status_header":"Statut de l’abonnement","status":"Statut de l’abonnement :","subscribe":"S’abonner","manage":"Gérer l’abonnement et la facturation","not":"Vous n’êtes pas abonné."}},"quiz":{"questions":"Questions","start":"Commencer le questionnaire","return":"Retourner au menu","author":"Auteur(s) :","author_team":"L’équipe de la Banque de questions d’Ottawa","navigation":{"of":"de","previous":"Précédent","next":"Suivant","submit":"Terminer"},"validate":"Valider","total_score":"Pointage total","feedback":{"title":"Fournir une rétroaction","description":"Utilisez le formulaire ci-dessous pour fournir des commentaires sur la question actuelle.","header_1":"Nature de la rétroaction","category":{"grammar":"Grammaire et orthographe","incorrect_content":"Contenu incorrect","missing_content":"Contenu manquant","technical":"Problème technique","media":"Problème avec les appuis visuels (p. ex., photos ou diagrammes)","general":"Commentaires généraux","praise":"Éloge","other":"Autre"},"header_2":"Informations supplémentaires","text":"Veuillez inclure des clarifications ici.","cancel":"Annuler","submit":"Soumettre","successful":"Merci pour votre rétroaction ! Vos remarques seront examinées par l’un de nos éditeurs sous peu.","error_1":"Échec de l’envoi du formulaire de rétroaction. Veuillez réessayer.","error_2":"Veuillez sélectionner une catégorie pour la rétroaction et fournir une brève explication."},"review":{"title":"Revue de la tentative","description":"Revoir votre tentative.","questions_answered":"Questions répondues","score":"Score total","peer_average":"Résultat moyen parmi tous les utilisateurs","of":"de","return_home":"Retourner à l’accueil","return_questions":"Retourner au menu des questions"}},"questions":{"title":"Questions","description":"Le répertoire de questions de La banque de questions d’Ottawa","navigation":{"uOttawa":"Curriculum uOttawa","LMCC":"Objectifs de L’EACMC"},"uOttawaCurriculum":{"table":{"course":"Titre du cours","questions_header":"Questions","questions":"questions","attempts":"Tentatives","attempt":"tentative(s)","best_grade":"Meilleur résultat"}}},"performance":{"title":"Performance","statistics":{"header":"Statistiques","30_days":"30 derniers jours","all_time":"Tout temps"},"latest":"Dernières tentatives","answered":"Répondues","review":"Réviser","resume":"Continuer","previous_attempts":"Tentatives précédentes","status":"Statut","score":"Score","date":"Date","action":"Action","finished":"Terminé","in_progress":"En cours"},"coming_soon":{"title":"Bientôt disponible"},"pricing":{"title":"Tarification","description":"Abonnements pour la Banque de questions d’Ottawa","per_3_months":"/3 mois","per_6_months":"/6 mois","per_year":"/an","trimonthly_billing":"Facturation trimensuelle","semiannually_billing":"Facturation semi-annuelle","yearly_billing":"Facturation annuelle","get":"Accéder","features":{"mcqs":"Plus de 4 200 QCM","users":"Une communauté de 600 utilisateurs actifs","cases":"Plus de 65 cas cliniques","performance":"Données de performance détaillées"},"most_popular":"Le plus populaire","header_1":"Choisissez le plan qui vous convient","header_2":"Vous devez être abonné pour voir le contenu de cette page.","header_3":"Tous les plans vous donnent un accès complet et illimité à toutes les fonctionnalités de la Banque de questions d’Ottawa pendant la durée de votre abonnement.","membership_header":"Abonnement annuel","included":"Ce qui est inclus","get_access":"Abonnez-vous dès maintenant et bénéficiez d’un accès pendant toute une année.","payments":"Tous les paiements sont traités de manière sécurisée via Stripe."}}}},"initialLocale":"en","ns":["common"],"userConfig":{"debug":false,"reloadOnPrerender":false,"i18n":{"locales":["en","fr"],"defaultLocale":"en"},"localePath":"/var/task/public/locales"}}},"__N_SSP":true},"page":"/","query":{},"buildId":"UlRnIrdCvsBkGGu4jcppH","isFallback":false,"gssp":true,"locale":"en","locales":["en","fr"],"defaultLocale":"en","scriptLoader":[]}</script>
+</body>
+</html>
